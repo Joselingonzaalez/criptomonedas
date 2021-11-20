@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@200;300;400;500;600;700&display=swap');
+
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Main Styling*/
+
+html,
+body{
+    font-family: 'IBM Plex Serif', serif;
+}
+
+h1{ font-size: 40px;}
+h2{ font-size: 40px;}
+h3{ font-size: 40px;}
+h4{ font-size: 40px;}
+h5{ font-size: 40px;}
+h6{ font-size: 40px;}
+
+p{
+    font-size: 20px;
+    line-height: 1.5em;
+    margin: 10px 0;
+}
+
+/*Utility Classes*/
+.container{
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 50px;
+}
+
+.display-1{
+    font-size: 82px;
+    font-weight: 200;
+}
+
+/*Header*/
+#main-header {
+    background: url('../img/background3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:rgb(206, 25, 25);
+    padding-top: 140px;
+
+}
+
+#main-header .cripto {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+#main-header h1{
+    padding-top: 3px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-shadow: 20pt;
+}
+
+#main-header p{
+    width: 40%;
+    padding-top: 5px;
+}
+
+/*Description*/
+#description {
+    background: url(../img/pared.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 90px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+#desarrollo {
+    padding-top: 90px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+#trading {
+    background: url(../img/pared.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 90px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+#valor {
+    padding-top: 90px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+#blockchain {
+    background: url(../img/pared.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 90px;
+    padding-bottom: 70px;
+    text-align: center;
+}
